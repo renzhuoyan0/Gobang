@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	min-width: 1200px;
+	background: url("../images/back2.jpg");
+	background-size: 1600px 700px;
+}
+.content{
+	width: 600px;
+	margin:30px auto;
+	border-radius: 5px;
+	box-shadow: 0 0 34px #626262;
+	/*display: none;*/
+}
+#chessboard{
+	width: 600px;
+	height: 600px;
+	border-radius: 10px;
+	background:url("../images/back.jpg");
+	position: relative;
+	border: 10px solid #EDD8B8;
+	opacity: 0.8;
+}
+.chess{
+	float: left;
+	border-radius: 50%;
+	position: relative;
+	z-index: 8;
+}
+.kaishi{
+	width: 620px;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 250px;
+	left: 375px;
+	z-index: 10;
+	border-radius: 10px;
+	opacity: 0.9;
+	font-size: 100px;
+	line-height: 200px;
+	text-align: center;
+}
+.block{
+	width: 120px;
+	height: 120px;
+	position: absolute; 
+	top: 250px;
+	left: 200px;
+	background:red;
+	background-image: url("../images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+}
+.block1{
+	left: 1080px;
+	background-image: url("../images/2.jpg");
+}
+.zhunbei{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: 400px;
+	left: 150px;
+	background:#bcbcbc;
+	line-height: 100px;
+	font-size: 5em;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px  13px #ccc inset;
+	cursor: pointer;
+
+}
+.zhunbei:hover{
+	background:green;
+}
+.zhunbei1{
+	left: 1040px;
+}
